@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Café de PARIS</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav navbar--collapse navbar__nav">
+        <div class="icon"><img src="./images/logo.png" alt="" /></div>
+        <button class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="reserve"></div>
+      </nav>
+    </header>
+    <div id="popup-bg" class="popup-bg" style="display: none"></div>
+    <div id="popup-overlay" class="popup-menu" style="display: none">
+      <ul>
+        <li><a href="#about" class="popup-menu__item">ABOUT</a></li>
+        <li><a href="#news" class="popup-menu__item">NEWS</a></li>
+        <li><a href="#menu" class="popup-menu__item">MENU</a></li>
+        <li><a href="#info" class="popup-menu__item">INFO</a></li>
+        <li><a href="#campaign" class="popup-menu__item">CAMPAIGN</a></li>
+        <li><a href="#last" class="popup-menu__item">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- main visual -->
+      <div class="mv">
+        <div class="mv-img" style="background-image: url(./images/pic/img001.jpg)"></div>
+        <div class="mv-img" style="background-image: url(./images/pic/img002.jpg)"></div>
+        <div class="mv-img" style="background-image: url(./images/pic/img003.jpg)"></div>
+      </div>
+      <!-- about -->
+      <section id="about">
+        <div class="wrapper">
+          <h1>ABOUT</h1>
+          <div class="contents">
+            <div class="about-slide">
+              <div class="about-img" style="background-image: url(./images/pic/img36.jpg)"></div>
+              <div class="about-img" style="background-image: url(./images/pic/img017.jpg)"></div>
+              <div class="about-img" style="background-image: url(./images/pic/img13.jpg)"></div>
+              <div class="about-img" style="background-image: url(./images/pic/img028.jpg)"></div>
+            </div>
+            <div class="text-cont">
+              <div class="text-cont_box">
+                <span class="about-desc">café de PARISとは？</span>
+                <h3>About Café de PARIS</h3>
+                <p>
+                  早朝6時からオープン！ランチタイムは、定番のパスタやカレーなどの日替わりラ ンチがおすすめ！<br />
+                  西新宿だから交通の便もよく、お集まり・ショッピングなどにも最適！<br />
+                  お二人だけのランチタイムにいかがですか。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- news -->
+      <section id="news">
+        <div class="wrapper">
+          <h1>NEWS</h1>
+          <div class="contents">
+            <div class="news-main">
+              <img src="./images/pic/img06.jpg" alt="" />
+            </div>
+            <div class="news-sub">
+              <img src="./images/pic/img122.jpg" alt="" />
+            </div>
+            <div class="news-cont">
+              <p>
+                Café de PARISの最新情報をお伝えします。<br />
+                キャンペーンや運営情報をお見逃しなく！
+              </p>
+              <ul class="news-list">
+                <li>
+                  <span class="date">2020.4.3</span
+                  ><a href="#" class="news-ttl">新規サイトオープン企画　Webサイトを見て特製ケーキをもらおう!</a>
+                </li>
+                <li><span class="date">2020.3.11</span><a href="#" class="news-ttl">新作マカロン登場!!</a></li>
+                <li>
+                  <span class="date">2020.3.9</span
+                  ><a href="#" class="news-ttl">お待たせ致しました!カフェ・ド・パリWebサイトをオープン致しました。</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu -->
+      <section id="menu">
+        <!-- 横スクロール -->
+        <div class="menu-box" id="menu-box">
+          <div class="menu-contents" id="menu-contents">
+            <div class="menu-img">
+              <img src="./images/pic/menu0.png" alt="" style="margin: 0 0 50px 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu1.png" alt="" style="margin: 0 0 -30px 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu2.png" alt="" style="margin: 0 0 50px 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu3.png" alt="" style="margin: 0 0 60px 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu4.png" alt="" style="margin: 0 0 0 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu5.png" alt="" style="margin: 0 0 20px 0" />
+            </div>
+            <div class="menu-img">
+              <img src="./images/pic/menu6.png" alt="" style="margin: 0 0 40px 0" />
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h1>MENU</h1>
+          <p class="desc">
+            メイン料理の日替わりランチからコーヒー、デザートなどのサイドメニュー Café de
+            PARISでは幅広くご用意いたします。<br />
+            今一番ほしい、こだわたいお食事をお楽しみください。
+          </p>
+        </div>
+      </section>
+      <!-- info -->
+      <section id="info">
+        <div class="wrapper">
+          <h1>INFO</h1>
+          <div class="contents">
+            <div class="info-main">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4010092659983!2d139.69511095180496!3d35.69174828912324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db4f3887ae7%3A0x3d4f3619214cc0ea!2z44Kz44Kv44O844Oz44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1646102795512!5m2!1sja!2sjp"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="info-cont">
+              <span class="info-desc">ADDRESS</span>
+              <p>
+                〒160-0023<br />
+                東京都新宿区西新宿１丁目７−３<br />
+                モード学園総合校舎コクーンタワ
+              </p>
+              <span class="info-desc">OPENING HOURS</span>
+              <p>6:00〜22:00（LO 21:30）</p>
+              <button>GOOGLE MAP</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- camp -->
+      <section id="campaign">
+        <div class="wrapper">
+          <h1>CAMPAIGN</h1>
+          <p class="desc">
+            \　期間限定キャンペーン実施中　/<br />
+            今すぐクーポンをケットしましょう！<br />
+            お好きな料理を決めて画像をダウンロードしてください〜
+          </p>
+          <div class="contents">
+            <div class="campaign-main">
+              <div class="canvas" id="canvas">
+                <img src="./images/pic/menu2-1.png" alt="" id="canvas2" style="display: none" />
+                <img src="./images/pic/menu1-1.png" alt="" id="canvas1" style="display: none" />
+                <img src="./images/pic/menu3-1.png" alt="" id="canvas3" style="display: none" />
+                <img src="./images/pic/menu4-1.png" alt="" id="canvas4" style="display: none" />
+              </div>
+
+              <div class="btn-group">
+                <button id="ok">クーポンをケット</button>
+              </div>
+              <div class="result-group" style="display: none">
+                <img src="" id="result" />
+                <div class="result-btn">
+                  <button><a href="" id="ss" download="cafedéparis.png">ダウンロード</a></button>
+                  <button id="close">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="campaign-list">
+            <img src="./images/pic/menu2-1.png" alt="" id="2" />
+            <img src="./images/pic/menu1-1.png" alt="" id="1" />
+            <img src="./images/pic/menu3-1.png" alt="" id="3" />
+            <img src="./images/pic/menu4-1.png" alt="" id="4" />
+          </div>
+        </div>
+      </section>
+      <!-- last section -->
+      <section id="last">
+        <div class="wrapper">
+          <h2>
+            WELCOME TO<br />
+            Café de PARIS
+          </h2>
+          <button>予約はこちら</button>
+        </div>
+        <footer>
+          <div class="footer-info">
+            <img src="./images/logo_white.png" alt="" />
+            <p>
+              〒160-0023<br />
+              東京都新宿区西新宿１丁目７−３<br />
+              モード学園総合校舎コクーンタワ
+            </p>
+          </div>
+          <div class="footer-copy">
+            <p>Copyright © 2021 Chen TzuYin All Rights Reserved.</p>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- slick -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+</html>
